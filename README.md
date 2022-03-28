@@ -9,3 +9,8 @@ The AnimaMatrix folder contains the code for the animation. Just put this folder
 
 # Also
 You will find some finished rendered matrix animation videos here.
+
+# cillexia
+AnimaMatrix is a cillexia project created by Christian Bietsch.
+🌐 Website: www.cillexia.net
+YEAR 2022
