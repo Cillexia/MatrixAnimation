@@ -1,5 +1,5 @@
 # AnimaMatrix
-This is code for a matrix animation.
+This is code for the matrix animation you see below.
 
 ![AnimaMatrixCYAN_cillexia_600×600](https://user-images.githubusercontent.com/92103579/160474564-abb855b1-d26a-45f7-8121-407bb82c8072.gif)
 
