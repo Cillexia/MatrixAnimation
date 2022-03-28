@@ -21,12 +21,12 @@ String LOGO = "cillexia_logo_backgroundTRANSPARENT_128x128.png";
 PImage logo;
 
 // ========== MATRIX ==========
-float MATRIX_SIZE = 10.0*1024/400;       // font size
+float MATRIX_SIZE = 10.0*1024/400;       // Character size
 color MATRIX_COLOR = color(0, 200, 200); // font color
-color MATRIX_COLOR2 = color(200);        // font color2
+color MATRIX_COLOR2 = color(200);        // color of a sequence's first char
 boolean GLOW = true;                     // glow? (SLOWS DOWN dramatically when running real time)
 // Column:
-Column column[] = { new Column("CILLEXIA ", 10, 0, 60, 2),
+Column COLUMNS[] = { new Column("CILLEXIA ", 10, 0, 60, 2),
                     new Column("InaSilja", 20, 10, 40, 0),
                     new Column("Christian", 10, 0, 40, 0),
                     new Column("Ina", 10, 20, 40, 0),
@@ -147,8 +147,8 @@ void draw(float progress) {
 }
 
 void drawMATRIX(float progress) {
-  for (int i = 0; i < column.length; i++) {
-    final Column COLUMN = column[i];
+  for (int i = 0; i < COLUMNS.length; i++) {
+    final Column COLUMN = COLUMNS[i];
     final float h = height, m = h*COLUMN.SPEED, x = 0, y = progress*m+(COLUMN.OFFSET+1.0)*h;
     for (int j = 0; j < COLUMN.DUPLICATE; j++) {
       for (int k = 0; k < COLUMN.STRING.length(); k++) {
@@ -170,13 +170,13 @@ void drawMATRIX(float progress) {
 
 /** Column */
 final class Column {
-  // STRING: chars of one column
+  // STRING: char sequence of one column
   final String STRING;
-  // SPEED: column speed [1-100]
+  // SPEED: column speed [1...100]
   final float SPEED;
-  // OFFSET: column offset [1-100]
+  // OFFSET: column offset [1...100]
   final float OFFSET;
-  // SWITCH_SPEED: how fast chars switch [1-100]
+  // SWITCH_SPEED: how fast chars switch [1...100...]
   final float SWITCH_SPEED;
   // DUPLICATE: How often to repeat the sequence [0...]
   final int DUPLICATE;
