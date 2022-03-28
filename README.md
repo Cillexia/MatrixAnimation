@@ -6,21 +6,28 @@ This is code for the matrix animation you see below.
 It is a perfect endless loop running for infinity.
 
 # How to use it?
-#### GET CODE INTO PROCESSING
 The AnimaMatrix folder contains the code for the animation. Just put this folder with all its content into your project's directory used by Processing.
-You can recored
 
 #### MATRIX SETTINGS
-MATRIX_SIZE: Size of the character.
-MATRIX_COLOR: Font color
-MATRIX_COLOR2: Color of a sequence's first char.
-GLOW: If set to true, this makes the characters glow. (ATTENTION: Enabling GLOW might SLOW DOWN frames dramatically, causing lag running in real time)
+- MATRIX_SIZE: Size of the character.
+- MATRIX_COLOR: Font color
+- MATRIX_COLOR2: Color of a sequence's first char.
+- GLOW: If set to true, this makes the characters glow. (ATTENTION: Enabling GLOW might SLOW DOWN frames dramatically, causing lag running in real time)
+- COLUMNS: An array which contains the Columns to display.
+
+#### Class: Column
+Column contains a character sequence for one column to display. It also holds some more parameters, to set the speed with which the sequence drops, the offset on screen, the switching speed of the chars, and how often the sequence should repeat.
+- STRING: Contains the character sequence of one column.
+- SPEED: Column drop speed [1...100]
+- OFFSET: Offset on the screen [1...100]
+- SWITCH_SPEED: How fast chars switch [1...100...]
+- DUPLICATE: How often to repeat the sequence [0...]
 
 #### RECORD SETTINGS
-TOTAL_FRAMES: This value determines the total amount of frames to record.
-RECORD: By setting RECORD to true, single frames are recorded.
-NAME: The name of both, the recorded frames, and the destination folder to put those into.
-FORMAT: Lets you set the formate. By default this is set to png.
+- TOTAL_FRAMES: This value determines the total amount of frames to record.
+- RECORD: By setting RECORD to true, single frames are recorded.
+- NAME: The name of both, the recorded frames, and the destination folder to put those into.
+- FORMAT: Lets you set the formate. By default this is set to png.
 
 # Also
 You will find some finished rendered matrix animation videos here.
