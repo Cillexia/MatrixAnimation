@@ -1,5 +1,5 @@
 /**
-* Anima Matrix: A cillexia project by Christian Bietsch
+* AnimaMatrix: A cillexia project by Christian Bietsch
 * Website: www.cillexia.net
 */
 
