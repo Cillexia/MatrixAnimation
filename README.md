@@ -11,7 +11,7 @@ It is a perfect endless loop running for infinity.
 The code generates each frame for the animation, so that it loops perfectly. In case recording is enabled, it saves each of those frames into a folder.
 
 # ❔ How to use it ❔
-The AnimaMatrix folder contains the code for the animation. Just put this folder with all its content into your project's directory used by Processing.
+The MatrixAnimation folder inside this repository contains the code for the animation. Just put this folder with all its content into your project's directory used by Processing.
 
 #### ⚙️ MATRIX SETTINGS
 - MATRIX_SIZE: Size of the character.
@@ -41,7 +41,7 @@ The outputed images are your animation frame by frame. Now you can create a gif,
 You will find some finished rendered matrix animation videos here.
 
 # cillexia
-AnimaMatrix is a cillexia project created by Christian Bietsch.
+MatrixAnimation is a cillexia project created by Christian Bietsch.
 
 🌐 Website: www.cillexia.net
 
