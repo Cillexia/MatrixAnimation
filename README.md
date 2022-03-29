@@ -1,10 +1,10 @@
 # MatrixAnimation
-![cillexia_repository_AnimaMatrixCYAN](https://user-images.githubusercontent.com/92103579/160596076-c4b00bc1-91c8-4c22-9108-3d9b9a75f82d.png)
+
 
 # What is MatrixAnimation?
 This is code for the matrix animation you see below.
 
-![AnimaMatrixCYAN_cillexia_600×600](https://user-images.githubusercontent.com/92103579/160474564-abb855b1-d26a-45f7-8121-407bb82c8072.gif)
+
 
 It is a perfect endless loop running for infinity.
 
