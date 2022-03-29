@@ -6,7 +6,7 @@
 // ========== RECORD SETTINGS ==========
 static final int TOTAL_FRAMES = 1200;                   // Total frames to record
 static boolean RECORD = true;                           // record
-static final String NAME = "AnimaMatrixCYAN_1024x1024"; // name
+static final String NAME = "AnimaMatrixCYAN_1080x1080"; // name
 static final String FORMAT = "png";                     // formate
 
 int counter = 0;                                        // counts frames
@@ -21,7 +21,7 @@ String LOGO = "cillexia_logo_backgroundTRANSPARENT_128x128.png";
 PImage logo;
 
 // ========== MATRIX ==========
-float MATRIX_SIZE = 10.0*1024/400;       // Character size
+float MATRIX_SIZE = 10.0*1080/400;       // Character size
 color MATRIX_COLOR = color(0, 200, 200); // font color
 color MATRIX_COLOR2 = color(200);        // color of a sequence's first char
 boolean GLOW = true;                     // glow? (SLOWS DOWN dramatically when running real time)
@@ -81,7 +81,7 @@ Column COLUMNS[] = { new Column("CILLEXIA ", 10, 0, 60, 2),
                     new Column("where dreams become reality", 20, 70, 60, 0)  };
 
 void setup() {
-  size(1024, 1024);  // image size
+  size(1080, 1080);  // image size
   frameRate(60);
   
   // LOGO
