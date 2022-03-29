@@ -4,12 +4,12 @@
 */
 
 // ========== RECORD SETTINGS ==========
-static final int TOTAL_FRAMES = 1200;                   // Total frames to record
-static boolean RECORD = true;                           // record
-static final String NAME = "AnimaMatrixCYAN_1080x1080"; // name
-static final String FORMAT = "png";                     // formate
+static final int TOTAL_FRAMES = 1200;                       // Total frames to record
+static boolean RECORD = true;                               // record
+static final String NAME = "MatrixAnimationCYAN_1080x1080"; // name
+static final String FORMAT = "png";                         // formate
 
-int counter = 0;                                        // counts frames
+int counter = 0;                                            // counts frames
 
 // ========== INFO ==========
 String INFO_WEBSITE = "cillexia.net";
