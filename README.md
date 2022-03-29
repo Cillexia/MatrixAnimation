@@ -29,6 +29,9 @@ Column contains a character sequence for one column to display. It also holds so
 - NAME: The name of both, the recorded frames, and the destination folder to put those into.
 - FORMAT: Lets you set the formate. By default this is set to png.
 
+#### Frames to Animation?
+The outputed images are your animation frame by frame. Now you can create a gif, mp4, mov, webm, or any other file type from the just generated images.
+
 # Also
 You will find some finished rendered matrix animation videos here.
 
