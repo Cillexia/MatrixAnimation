@@ -5,10 +5,10 @@ This is code for the matrix animation you see below.
 
 It is a perfect endless loop running for infinity.
 
-# How to use it?
+# ❔ How to use it ❔
 The AnimaMatrix folder contains the code for the animation. Just put this folder with all its content into your project's directory used by Processing.
 
-#### MATRIX SETTINGS
+#### ⚙️ MATRIX SETTINGS
 - MATRIX_SIZE: Size of the character.
 - MATRIX_COLOR: Font color
 - MATRIX_COLOR2: Color of a sequence's first char.
@@ -23,13 +23,13 @@ Column contains a character sequence for one column to display. It also holds so
 - SWITCH_SPEED: How fast chars switch [1...100...]
 - DUPLICATE: How often to repeat the sequence [0...]
 
-#### RECORD SETTINGS
+#### 🎬 RECORD SETTINGS
 - TOTAL_FRAMES: This value determines the total amount of frames to record.
 - RECORD: By setting RECORD to true, single frames are recorded.
 - NAME: The name of both, the recorded frames, and the destination folder to put those into.
 - FORMAT: Lets you set the formate. By default this is set to png.
 
-#### Frames to Animation?
+#### 🎞 Frames to Animation?
 The outputed images are your animation frame by frame. Now you can create a gif, mp4, mov, webm, or any other file type from the just generated images.
 
 # Also
