@@ -4,26 +4,26 @@
 */
 
 // ========== RECORD SETTINGS ==========
-static final int TOTAL_FRAMES = 1200;                       // Total frames to record
-static boolean RECORD = true;                               // record
-static final String NAME = "MatrixAnimationCYAN_1080x1080"; // name
-static final String FORMAT = "png";                         // formate
+static final int TOTAL_FRAMES = 1200;                                // Total frames to record
+static boolean RECORD = true;                                        // record
+static final String NAME = "MatrixAnimationCYAN_cillexia_1080x1080"; // name
+static final String FORMAT = "png";                                  // formate
 
-int counter = 0;                                            // counts frames
+int counter = 0;                                                     // counts frames
 
 // ========== INFO ==========
 String INFO_WEBSITE = "cillexia.net";
 String INFO_NAME = "Matrix Animation";
 String INFO_AUTHOR = "Christian Bietsch";
 int INFO_SIZE = 42;
-color INFO_COLOR = color(160);
+color INFO_COLOR = color(200);
 String LOGO = "cillexia_logo_backgroundTRANSPARENT_128x128.png";
 PImage logo;
 
 // ========== MATRIX ==========
 float MATRIX_SIZE = 10.0*1080/400;       // Character size
-color MATRIX_COLOR = color(0, 200, 200); // font color
-color MATRIX_COLOR2 = color(200);        // color of a sequence's first char
+color MATRIX_COLOR = color(0, 255, 255); // font color
+color MATRIX_COLOR2 = color(255);        // color of a sequence's first char
 boolean GLOW = true;                     // glow? (SLOWS DOWN dramatically when running real time)
 // Column:
 Column COLUMNS[] = {  new Column("CILLEXIA ", 10, 0, 60, 2),
