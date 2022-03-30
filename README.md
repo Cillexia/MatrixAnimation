@@ -4,7 +4,7 @@
 # What is MatrixAnimation?
 This is code for the matrix animation you see below.
 
-
+![MatrixAnimationCYAN_cillexia_600x600](https://user-images.githubusercontent.com/92103579/160938776-2f69caed-bd42-42ec-bdbe-f8b4abad48e2.gif)
 
 It is a perfect endless loop running for infinity.
 
