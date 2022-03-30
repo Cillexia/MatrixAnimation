@@ -89,7 +89,7 @@ void setup() {
 }
 
 //** File name: folder/name.format */
-final String fileName() { return NAME+"/"+NAME+nf(counter,4)+"."+FORMAT; }
+final String fileName() { return NAME+"/"+NAME+"_frame"+nf(counter,4)+"."+FORMAT; }
 
 void INFO() {
   /*
