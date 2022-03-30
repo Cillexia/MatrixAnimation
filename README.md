@@ -8,9 +8,11 @@ This is code for the matrix animation you see below.
 
 It is a perfect endless loop running for infinity.
 
+# ❔ How to use it ❔
 The code generates each frame for the animation, so that it loops perfectly. In case recording is enabled, it saves each of those frames into a folder.
 
-# ❔ How to use it ❔
+Code language is Java with Processing.
+
 The MatrixAnimation folder inside this repository contains the code for the animation. Just put this folder with all its content into your project's directory used by Processing.
 
 #### ⚙️ MATRIX SETTINGS
